@@ -8,7 +8,7 @@ Casey Nguyen ([caseynguyen@berkeley.edu](mailto:your_email@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://www.youtube.com/watch?v=O_MjgUsoNCQ&feature=youtu.be)
+See [Proj02B] (https://www.youtube.com/watch?v=O_MjgUsoNCQ&feature=youtu.be)
 
 ## Screenshots
 

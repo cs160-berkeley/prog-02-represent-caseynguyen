@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pres_result"
+            android:id="@+id/item_icon"
+            android:layout_gravity="center"
+            android:layout_alignParentStart="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="R"
+            android:id="@+id/src2_next"
+            android:layout_gravity="bottom"
+            android:padding="0dp"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="60dp"
+            android:onClick="OnClickNextPerson"
+            android:background="#f80101" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="L"
+            android:id="@+id/src2_prev"
+            android:layout_gravity="bottom"
+            android:padding="0dp"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="80dp"
+            android:onClick="OnClickPrevPerson"
+            android:background="#0139f2" />
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="U"
+            android:id="@+id/src2_up"
+            android:layout_gravity="bottom"
+            android:padding="0dp"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="100dp"
+            android:onClick="OnClickPrevPerson"
+            android:background="#f80101" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="D"
+            android:id="@+id/src2_down"
+            android:layout_gravity="bottom"
+            android:padding="0dp"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="120dp"
+            android:onClick="OnClickNextPerson"
+            android:background="#0139f2" />
+        <TextView
+            android:id="@+id/P1_percent"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:text="Obama  51%"
+            android:padding="0dp"
+            android:textSize="13dp"
+            android:layout_marginTop="137dp"
+            android:layout_marginLeft="22dp"
+            />
+        <TextView
+            android:id="@+id/P2_percent"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:text="Romney  49%"
+            android:padding="0dp"
+            android:textSize="13dp"
+            android:layout_marginTop="137dp"
+            android:layout_marginLeft="113dp"
+            />
+
+        <TextView
+            android:id="@+id/sc3_location"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:text="Bakerfield"
+            android:padding="0dp"
+            android:textSize="13dp"
+            android:layout_marginTop="107dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

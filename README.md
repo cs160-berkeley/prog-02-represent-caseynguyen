@@ -16,5 +16,5 @@ See [Proj02B] (https://www.youtube.com/watch?v=O_MjgUsoNCQ&feature=youtu.be)
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
+* Hat tip to anyone who's code was used CS160 staff for sample code. 
 * Any other support

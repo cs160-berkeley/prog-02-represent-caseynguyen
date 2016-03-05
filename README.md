@@ -4,11 +4,11 @@ Briefly describe your app here.
 
 ## Authors
 
-Casey Nguyen ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Casey Nguyen ([caseynguyen@berkeley.edu](mailto:your_email@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [your demo video title here] (https://www.youtube.com/watch?v=O_MjgUsoNCQ&feature=youtu.be)
 
 ## Screenshots
 

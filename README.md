@@ -12,8 +12,8 @@ See [Proj02B] (https://www.youtube.com/watch?v=O_MjgUsoNCQ&feature=youtu.be)
 
 ## Screenshots
 
-<img src="screenshots/sc1.png" height="400" alt="Screenshot"/>
-<img src="screenshots/sc1.png" height="400" alt="Screenshot"/>
+<img src="screenshots/sc1.png" height="200" alt="Screenshot"/>
+<img src="screenshots/Screen Shot 2016-03-05 at 11.59.55 PM.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 

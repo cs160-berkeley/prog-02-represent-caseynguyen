@@ -12,7 +12,7 @@ See [Proj02B] (https://www.youtube.com/watch?v=O_MjgUsoNCQ&feature=youtu.be)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/sc1.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 

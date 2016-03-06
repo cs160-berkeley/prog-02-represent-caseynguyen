@@ -1,6 +1,6 @@
 # PROG 02: Represent!
 
-Briefly describe your app here.
+This Represent is a mobile ineraction wear application whose main objective is to provides information on congressional representatives based on a current location or a ZIP code that is provided.  
 
 ## Authors
 

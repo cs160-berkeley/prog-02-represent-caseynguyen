@@ -13,17 +13,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView2" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="0dp"
-        android:maxHeight="100dp"
-        android:maxWidth="100dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/start_frame"
-        android:id="@+id/imageView"
-        android:layout_gravity="center"
         />
 
 

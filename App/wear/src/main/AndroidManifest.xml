@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.caseynguyen.p02b">
+    package="com.cs160.joleary.catnip" >
 
     <uses-feature android:name="android.hardware.type.watch" />
 
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-
     <application
+        android:name=".wearGlobalVarApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@android:style/Theme.DeviceDefault">
-        <uses-library
-            android:name="com.google.android.wearable"
-            android:required="false" />
-
+        android:theme="@android:style/Theme.DeviceDefault" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.DeviceDefault.Light">
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,16 +23,16 @@
             android:name=".wearScreen2Ativity">
         </activity>
         <activity
-            android:name=".wearScreen3Ativity">
+            android:name=".wearScreen3Ativity"
+            android:theme="@android:style/Theme" >
         </activity>
         <service android:name=".WatchToPhoneService" />
         <!-- Listeners are special services that need to be declared like below, as BIND_LISTENER -->
         <service android:name=".WatchListenerService">
-        <intent-filter>
-            <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
-        </intent-filter>
-    </service>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
     </application>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
 
 </manifest>
